@@ -13,13 +13,13 @@
 
     - SIGINT behavior: 
 
-                       + parent process ignore the signal
+        + parent process ignore the signal
 
-                       + child process running background ignore the signal
+        + child process running background ignore the signal
 
-                       + child process running foreground terminate itself
+        + child process running foreground terminate itself
 
-                       + parent process print the number of signal that killed its foreground child
+        + parent process print the number of signal that killed its foreground child
 
     - SIGTSTP behavior: 
 
